@@ -1,0 +1,69 @@
+<div class="header">
+    <div class="logo">SITE NAME</div>
+    <a class="nav-button" href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
+    <nav class="nav-wrap">
+        <ul class="nav">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+</div>
+
+<script>
+    $(function () {
+        $(window).on('resize', function () {
+            if ($(window).width() >= 768) {
+                $(".nav-wrap").removeClass('closeMenu');
+            }
+        });
+        $(".nav-button").on("click", function () {
+            $(this).toggleClass('openMenu');
+            if (!$(".nav-wrap").hasClass('openMenu')) {
+                $(".nav-wrap")
+                    .removeClass('closeMenu')
+                    .addClass('openMenu')
+                    ;
+            } else {
+                $(".nav-wrap")
+                    .removeClass('openMenu')
+                    .addClass('closeMenu')
+                    ;
+            }
+            return false;
+        });
+    });
+</script>
