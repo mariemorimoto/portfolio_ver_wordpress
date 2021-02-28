@@ -28,8 +28,8 @@
 
         //独自CSSの読み込み
         wp_enqueue_style('css_global', get_template_directory_uri().'/css/global.css', array());
-        wp_enqueue_style('css_front_page', get_template_directory_uri().'/css/front_page.css', array());
         wp_enqueue_style('css_parts', get_template_directory_uri().'/css/parts.css', array());
+        wp_enqueue_style('css_top', get_template_directory_uri().'/css/top.css', array());
 
         //プラグインCSSの読み込み
         wp_enqueue_style('css_animate', get_template_directory_uri().'/css/animate.css', array());

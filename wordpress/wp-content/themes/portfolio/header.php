@@ -13,7 +13,6 @@
 <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/common/icon/favicon.ico" >
 <link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri(); ?>/img/common/icon/apple-touch-icon-precomposed.png">
 <title><?php bloginfo('name'); ?>-</title>
-<link href="<?php echo get_template_directory_uri(); ?>/css/home.css" rel="stylesheet">
 <?php wp_head(); ?>
 </head>
 

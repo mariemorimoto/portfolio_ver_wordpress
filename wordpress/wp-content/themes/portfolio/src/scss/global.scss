@@ -24,7 +24,7 @@ html {
 
 a {
 	text-decoration: none;
-	&:link,&:hover, &:active,&:visited {
+	&:link,&:hover,&:active,&:visited {
 		text-decoration: none;
 	}
 }
@@ -111,8 +111,8 @@ img {
 			a {
 				display: block;
 				padding: 5px;
-				font-size: 1.4rem;
 				color: $txtBase;
+				@include fz(1.6);
 			}
 		}
 		@media screen and (max-width: 767px) {
