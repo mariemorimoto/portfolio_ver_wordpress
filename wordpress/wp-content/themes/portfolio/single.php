@@ -4,7 +4,7 @@
     <section id="news" class="section">
 		<div class="mainCont container in970">
 			<h2 class="comTtl wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s"><span class="num">003</span>NEWS<small>type:News</small></h2>
-			<div class="opusCont">
+			<div class="newsCont">
 				<?php
 					if(have_posts()):
 						while(have_posts()): the_post();
@@ -24,9 +24,12 @@
 				?>
 			</div><!--/#opusCont-->
 		</div><!--/.mainCont-->
-		<div class="postLinks mainCont container in970  wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
-			<div class="postLink postLink-prev"><?php previous_post_link('<i class="fas fa-chevron-left"></i>%link'); ?></div>
-			<div class="postLink postLink-next"><?php next_post_link('%link<i class="fas fa-chevron-right"></i>'); ?></div>
+		<div class="mainCont container in970  wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
+			<div class="postLinks">
+				<p class="postLink postLink-prev"><?php previous_post_link('%link<i class="fas fa-chevron-left"></i>'); ?></p>
+				<p class="postLink postLink-next"><?php next_post_link('<i class="fas fa-chevron-right"></i>%link'); ?></p>
+			</div>
+			<p class="backTop" data-wow-duration="1.5s" data-wow-delay=".4s"><a class="button btnFull" href="<?php echo home_url(); ?>">Home</a></p>
 		</div>
     </section>
     <!--/#news-->

@@ -27,7 +27,7 @@
 
     <!--news-->
     <section id="news" class="section">
-        <?php get_template_part('news'); ?>
+        <?php get_template_part('archive'); ?>
     </section>
     <!--/#news-->
 
