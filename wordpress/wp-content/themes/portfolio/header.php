@@ -34,7 +34,7 @@ gtag('config', 'UA-138717503-1');
 <!--border-->
 <header id="header" class="top"><div class="headerIn ontainer">
     <div class="headerLogo"><a href="#mainv"><img src="<?php echo get_template_directory_uri(); ?>/img/common/logo.png" alt="ロゴ画像" class="js_ofi"></a></div>
-    <nav class="gNav"><ul>
+    <nav class="gNav">
         <?php
             wp_nav_menu(
                 array(
@@ -43,7 +43,7 @@ gtag('config', 'UA-138717503-1');
                 )
             );
         ?>
-    </ul></nav>
+    </nav>
 </div></header>
 
 <span class="right WrapBd"><span class="Vw">MARIE MORIMOTO</span></span>

@@ -1,4 +1,4 @@
-<footer class="left WrapBd"><span class="Vw">&copy;2021 MarieMorimoto</span></footer>
+<footer class="left WrapBd"><span class="Vw">&copy;2020 MarieMorimoto</span></footer>
 </div>
 
 <!--IE対策（旧バージョン）-->
