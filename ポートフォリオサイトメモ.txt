@@ -1,0 +1,14 @@
+ポートフォリオ参考サイト
+
+表示速度高速化などSEO対策にも使える
+https://www.webcreatorbox.com/twitter/twitter-0905-0911-2020
+
+表示の参考サイト（Glitched Text Animation）
+https://1stwebdesigner.com/30-useful-pure-css-code-snippets/
+
+文字の3D化（カーソルに合わせてなど）
+https://www.webcreatorbox.com/tech/ztextjs
+
+アイコン使用サイト
+icomoon.io（カスタムページ）
+https://icomoon.io/app/#/select
